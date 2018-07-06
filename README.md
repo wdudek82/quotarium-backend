@@ -1,14 +1,14 @@
 # Quotarium [Backend]
 
 ## Created with:
-* python                3.6.1
+* python                3.6.5
 
-* pipenv                5.0.0
+* pipenv                2018.7.1
 
 * Django                2.0.7
-* Django Debug Toolbar  1.8.0
-* Django Rest Framework 3.6.3
-* Django Rest Swagger   2.1.2
+* Django Debug Toolbar  1.9.1
+* Django Rest Framework 3.8.2
+* Django Rest Swagger   2.2.0
 
 (complete dependencies list is in Pipfile.lock)
 
