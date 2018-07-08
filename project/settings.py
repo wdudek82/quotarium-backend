@@ -27,6 +27,11 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# CORS Headers Settings
+# CORS_ORIGIN_ALLOW_ALL = True
+CORS_ORIGIN_WHITELIST = [
+    'localhost:3000',
+]
 
 # Application definition
 
@@ -151,6 +156,3 @@ REST_FRAMEWORK = {
     'PAGE_SIZE': 100,
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
 }
-
-
-CORS_ORIGIN_ALLOW_ALL = True
